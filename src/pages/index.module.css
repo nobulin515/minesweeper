@@ -7,9 +7,29 @@
   min-height: 100vh;
   padding: 0 0.5rem;
 }
-.smpleStyle{
-width: 30px;
-height: 30px;
-background: url(~/src/assets/images/icons.png) no-repeat;
 
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(204 203 203);
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  height: 270px;
+  background-color: black;
+}
+
+.cellStyle {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: solid;
+  border-color: rgb(255 255 255);
+  border-width: 1px;
 }
