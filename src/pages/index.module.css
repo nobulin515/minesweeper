@@ -22,7 +22,7 @@
   flex-wrap: wrap;
   width: 270px;
   height: 270px;
-  background-color: black;
+  background-color: #6c6c6c;
 }
 
 .cellStyle {
@@ -32,4 +32,17 @@
   border: solid;
   border-color: rgb(255 255 255);
   border-width: 1px;
+}
+
+.smpleStyle {
+  width: 30px;
+  height: 30px;
+  background: url('~/src/assets/images/icons.png') no-repeat;
+}
+
+.block {
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  background: url('~/src/assets/images/icons.png') no-repeat;
 }
